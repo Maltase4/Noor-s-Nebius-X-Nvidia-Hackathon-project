@@ -1,10 +1,11 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-
+import streamlit as st
 # Load your secret API key from the .env file
 load_dotenv()
-api_key = os.getenv("api_key")
+
+api_key = os.getenv("api_key") or st.secrets.get("api_key")
 
 # Connect to Nebius Token Factory using the OpenAI-compatible SDK
 client = OpenAI(
