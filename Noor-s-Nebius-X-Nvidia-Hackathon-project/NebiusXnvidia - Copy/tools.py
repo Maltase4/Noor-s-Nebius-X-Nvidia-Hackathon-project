@@ -2,9 +2,8 @@ import os
 from dotenv import load_dotenv
 from tavily import TavilyClient
 
-# Load secret keys from the .env file
-load_dotenv()
-tavily_api_key = os.getenv("TAVILY_API_KEY")
+import streamlit as st
+api_key = os.getenv("api_key") or st.secrets.get("api_key")
 
 # Only create the client if a key exists, so the app still runs without it
 tavily_client = TavilyClient(tavily_api_key) if tavily_api_key else None
