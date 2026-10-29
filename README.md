@@ -41,7 +41,7 @@ Binly is an intelligent, eco-friendly personal recycling assistant designed to h
 (run these in your terminal where you want to install)
 
 1. **Clone the repository:**
-   ```text
+   ```bash
    git clone [github link]
    ```
 2. **Installing required stuff**
