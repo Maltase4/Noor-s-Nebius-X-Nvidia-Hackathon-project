@@ -35,3 +35,12 @@ Binly is an intelligent, eco-friendly personal recycling assistant designed to h
 ├── requirements.txt     # Project dependencies
 ├── .gitignore           # Excludes sensitive keys and local data
 └── README.md            # Project documentation
+
+## ⚙️ Local Installation & Setup For Local Deployment
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR-USERNAME/Binly.git](https://github.com/YOUR-USERNAME/Binly.git)
+   cd Binly
+
+pip install -r requirements.txt
