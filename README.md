@@ -38,7 +38,7 @@ Binly is an intelligent, eco-friendly personal recycling assistant designed to h
 ```
 
 ## ⚙️ Local Installation & Setup For Local Deployment  
-(run these in your terminal where you want to install the project)
+(run these in your terminal where you want to install)
 
 1. **Clone the repository:**
    ```text
