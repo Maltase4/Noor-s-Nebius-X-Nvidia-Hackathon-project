@@ -37,8 +37,8 @@ Binly is an intelligent, eco-friendly personal recycling assistant designed to h
 └── README.md            # Project documentation
 ```
 
-## ⚙️ Local Installation & Setup For Local Deployment  
-(run these in your terminal where you want to install)
+## ⚙️ Local Installation & Setup For Local Deployment 
+(run these in your terminal following the file path where you want to install)
 
 1. **Clone the repository:**
    ```bash
@@ -51,4 +51,9 @@ Binly is an intelligent, eco-friendly personal recycling assistant designed to h
 3. **Launching 🚀**
    ```text
    python -m streamlit run main.py
+   ```
+4. **Set up the environment file**
+   ```text
+   NEBIUS_API_KEY=your_actual_chatbot_api_key_here
+   TAVILY_API_KEY=your_actual_web_api_key_here
    ```
