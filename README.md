@@ -54,6 +54,6 @@ Binly is an intelligent, eco-friendly personal recycling assistant designed to h
    ```
 4. **Set up the environment file**
    ```text
-   NEBIUS_API_KEY=your_actual_chatbot_api_key_here
+   API_KEY=your_actual_chatbot_api_key_here
    TAVILY_API_KEY=your_actual_web_api_key_here
    ```
