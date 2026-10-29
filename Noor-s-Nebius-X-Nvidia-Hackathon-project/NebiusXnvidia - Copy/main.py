@@ -7,7 +7,7 @@ from tools import lookup_local_rule, web_search
 # Page Configuration
 st.set_page_config(page_title="Personal Recycling Assistant", page_icon="🌱", layout="centered")
 
-st.title("🌱 Personal Recycling Assistant")
+st.title("🌱 Binly: Your Personal Recycling Assistant")
 st.caption("Powered by NVIDIA Models & Nebius Cloud | Personal AI Track")
 
 # Sidebar - Display Memory and Explicit Logging Button
@@ -52,7 +52,7 @@ if "messages" not in st.session_state:
         {
             "role": "system", 
             "content": (
-                "You are a helpful, eco-friendly Personal Recycling Assistant. "
+                "You are Binly, a helpful, eco-friendly Personal Recycling Assistant. "
                 "Provide clear, direct advice on how to recycle items, offer sustainable alternatives, "
                 "and help users track their waste. Each user message may include local guideline data "
                 "and web search results. Use them when relevant, and mention source URLs when you rely "
@@ -78,7 +78,7 @@ for msg in st.session_state.messages:
 uploaded_file = st.file_uploader("Upload a photo of an item to scan (optional):", type=["jpg", "jpeg", "png"])
 
 # Chat Input Box
-if prompt := st.chat_input("Ask how to recycle an item..."):
+if prompt := st.chat_input("Hi! Im Binly. Ask me how to recycle/dispose an item..."):
     
     content_payload = []
     
